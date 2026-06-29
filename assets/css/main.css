@@ -3506,8 +3506,18 @@ body.landing .dropotron.level-0 {
 	z-index: 100;
 }
 
+#header img {
+	height: 3em;
+	width: 3em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .25em;
+}
+
 #header h1 {
 	height: inherit;
+	font-family: "Audiowide", sans-serif;
+	font-style: normal;
 	left: 1.25em;
 	line-height: inherit;
 	margin: 0;
@@ -3630,6 +3640,8 @@ body.landing #header {
 
 #banner .content header h2 {
 	font-size: 2.5em;
+	font-family: "Audiowide", sans-serif;
+	font-style: normal;
 	margin: 0;
 }
 
@@ -4041,6 +4053,8 @@ body.is-touch #banner {
 	#titleBar .title {
 		color: #ffffff;
 		display: block;
+		font-family: "Audiowide", sans-serif;
+		font-style: normal;
 		font-weight: 300;
 		height: 44px;
 		line-height: 44px;
